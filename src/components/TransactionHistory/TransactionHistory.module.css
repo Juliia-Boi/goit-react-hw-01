@@ -1,0 +1,26 @@
+.conteiner {
+  width: 480px;
+  text-align: center;
+  border-collapse: collapse;
+  margin: 30px auto;
+  box-shadow: 2px 3px 14px 2px rgba(0, 0, 0, 0.41);
+}
+
+.tableHeader {
+  background-color: black;
+  color: white;
+}
+
+th,
+td {
+  border: 1px solid #000000;
+  padding: 5px;
+}
+
+.table:nth-child(odd) {
+  background-color: white;
+}
+
+.table:nth-child(even) {
+  background-color: #c0c0c0;
+}
